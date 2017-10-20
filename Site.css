@@ -10,13 +10,32 @@
     padding: 0px 0px 0px 0px;
     height: 347.422px;
     color:white;
+    text-align: center;
 }
 div.mapPic {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    min-height: 447.422px;
-    width: 440px;
+    min-height: 347.422px;
+    width: 333.5px;
+    background-size: 424px;
     
+}
+
+#locationOnePic {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.right {
+    padding-right: 0px;
+}
+
+/*This is the blue banner separating the sections*/
+.jumbotronTwo{
+    background-color: #474E5D;
+    text-align: center;
+    color: white;
+
 }
 
 
