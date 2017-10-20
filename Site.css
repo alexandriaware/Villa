@@ -1,6 +1,14 @@
 ﻿body {
-    font-family: 'Nunito Sans', sans-serif; /*Closest approximate font*/
+    /*font-family: 'Nunito Sans', sans-serif; /*Closest approximate font*/
+    font-family: 'Open Sans', sans-serif;
 
+}
+.row {
+    background-color: white;
+}
+.row.two {
+    background-color: #474E5D;
+    color: white;
 }
 
 .jumbotron {
@@ -26,8 +34,21 @@ div.mapPic {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
+#locationTwoPic {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#locationThreePic {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
 .right {
     padding-right: 0px;
+}
+.left {
+    padding-left: 0px;
 }
 
 /*This is the blue banner separating the sections*/
@@ -35,7 +56,6 @@ div.mapPic {
     background-color: #474E5D;
     text-align: center;
     color: white;
-
 }
 
 
@@ -55,10 +75,75 @@ nav#navvy.navbar.navbar-static-top {
     background: none;
 }
 
+
 /*BUTTON*/
 button.navbar-toggle {
     border: 1px solid #FFF6F0;
 }
 span.icon-bar {
     border: 1px solid #FFF6F0;
+}
+
+/*GRID ROWS SECTION*/
+.gridRowOne, .gridRowTwo, .gridRowThree {
+    height: 300px;
+}
+
+/*GRID CELLS SECTION*/
+#cell1 {
+    background-image: url('Images/3b-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+#cell2 {
+    height:400px;
+    text-align: center;
+    padding-top: 170px;
+
+    
+}
+#cell3 {
+    background-image: url('Images/42-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+#cell4 {
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+#cell5 {
+    background-image: url('Images/314-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+#cell6 {
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+#cell7 {
+    background-image: url('Images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+#cell8 {
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
+}
+#cell9 {
+    background-image: url('Images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding-top: 170px;
 }
