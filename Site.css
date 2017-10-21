@@ -16,15 +16,15 @@
     background-image: url('Images/tuscany-villas-sant-anna.jpg');
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    height: 347.422px;
+    height: 348px;
     color:white;
     text-align: center;
 }
-div.mapPic {
+.mapPic {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    min-height: 347.422px;
-    width: 333.5px;
+    min-height: 333px;
+    width: 328px;
     background-size: 424px;
     
 }
@@ -146,4 +146,20 @@ span.icon-bar {
     height: 400px;
     text-align: center;
     padding-top: 170px;
+}
+
+/*Carousel*/
+.review {
+    text-align: center;
+    padding-top: 135px;
+}
+
+#contactForm {
+    height: 350px;
+    padding-top: 100px;
+}
+
+#endBanner {
+    height: 200px;
+    padding-top: 70px;
 }
