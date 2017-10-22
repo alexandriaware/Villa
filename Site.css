@@ -1,6 +1,7 @@
 ﻿body {
     /*font-family: 'Nunito Sans', sans-serif; /*Closest approximate font*/
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 
 }
 .row.one, .row.three {
@@ -64,6 +65,7 @@
 /*Pushing the button on the first and third location away from the edge too because nothing is simple*/
 .btn.btn-primary.btn-md.one, .btn.btn-primary.btn-md.three{
     margin-left: 35px;
+    margin-bottom: 35px;
     
 }
 /*Button for location number two is the odd one out so now it has to be a different color*/
@@ -217,8 +219,8 @@ span.icon-bar {
 }
 /*Carousel indicator button colors*/
 .carousel-indicators li {
-  background-color: #474E5D;;
-  background-color: #474E5D;;
+  background-color: #474E5D;
+  background-color: #474E5D;
 }
 
 .carousel-indicators .active {
@@ -230,15 +232,20 @@ span.icon-bar {
 #contactForm {
     height: 350px;
     padding-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #formButton {
     background-color: #474E5D;
     color: white;
+    
 }
+
 
 /*footer*/
 .footer {
+    margin-top:75px;
     background-color: #474E5D;
     height: 150px;
     color: white;
