@@ -64,6 +64,15 @@
 /*Pushing the button on the first and third location away from the edge too because nothing is simple*/
 .btn.btn-primary.btn-md.one, .btn.btn-primary.btn-md.three{
     margin-left: 35px;
+    
+}
+/*Button for location number two is the odd one out so now it has to be a different color*/
+.btn.btn-primary.btn-md.two {
+    background-color: white;
+    color: #474E5D;
+}
+.btn.btn-primary.btn-md.three, .btn.btn-primary.btn-md.one:hover {
+    background-color: #474E5D;
 }
 
 /*This is the blue banner separating the sections*/
