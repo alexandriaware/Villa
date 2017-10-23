@@ -126,6 +126,7 @@ span.icon-bar {
 #cell1 {
     background-image: url('Images/3b-348x348.jpg');
     background-size: 100%;
+    background-repeat: no-repeat;
     height: 400px;
     text-align: center;
     padding-top: 170px;
@@ -135,10 +136,10 @@ span.icon-bar {
     background-color: gray;
     padding: 15px 10px 15px 10px;
     opacity: 0.80;
+    word-wrap: hyphenate;
     text-align:center;
-    margin-left: 110px;
-    margin-right: 110px;
-    max-width: 180px;
+    width: 50%;
+    margin-left: 25%;
 }
 #cell2 {
     height:400px;
